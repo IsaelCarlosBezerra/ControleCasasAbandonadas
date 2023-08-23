@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100%;
+  background: rgb(4, 4, 4);
+  color: #ccc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#pesquisa {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font: bold 20pt Arial;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: #6060a998;
+  color: #ccc;
+
+}
+
+#lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.itemLista {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  height: 22rem;
+  width: 15rem;
+  padding: .5rem;
+  background: #2f2fc6f5;
+  border-radius: 5px;
+}
+
+#imagem {
+  width: 100%;
+  height: 75%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#dados {
+  text-align: center;
+}
+
+button {
+  border-radius: 5px;
+  padding: .2rem;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: .2rem;
+  outline: none;
+}
+
+@media(max-width:450px) {
+  #labelFiltrar {
+    display: none;
+  }
+
+  #lista {
+    flex-direction: column;
+  }
+
+  .itemLista {
+    height: 17rem;
+    width: 12rem;
+  }
+
+  #imagem {
+    height: 65%;
+  }
+
+}

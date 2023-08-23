@@ -1,0 +1,40 @@
+{
+  "dados": [
+    {
+      "qt": "10",
+      "rua": "teste10",
+      "numero": "10",
+      "img": "./imagens/casa01.png"
+    },
+    {
+      "qt": "10",
+      "rua": "teste10",
+      "numero": "10",
+      "img": "./imagens/casa02.png"
+    },
+    {
+      "qt": "08",
+      "rua": "teste08",
+      "numero": "08",
+      "img": "./imagens/casa03.png"
+    },
+    {
+      "qt": "07",
+      "rua": "teste07",
+      "numero": "07",
+      "img": "./imagens/casa01.png"
+    },
+    {
+      "qt": "06",
+      "rua": "teste06",
+      "numero": "06",
+      "img": "./imagens/casa02.png"
+    },
+    {
+      "qt": "05",
+      "rua": "teste05",
+      "numero": "05",
+      "img": "./imagens/casa03.png"
+    }
+  ]
+}
